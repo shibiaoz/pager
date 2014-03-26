@@ -72,6 +72,6 @@ $p = $_GET['p'];
 $total =8;
 $page = new pager($total,$p);
 echo $page->show();
-
+/*git hub */
 
 ?>
