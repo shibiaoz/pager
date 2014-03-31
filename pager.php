@@ -52,6 +52,7 @@ class pager{
         }
         $re = '<div class="page">';
         $re.="<a href=\"{$this->url}\">首页</a>";
+        $re.="<a href=\"{$this->url}$start-1\">首页</a>";
         if($this->cur==1){
             $re = '<div class="page">';
         }
